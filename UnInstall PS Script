@@ -1,0 +1,9 @@
+$Path1 = 'C:\Program Files\TeamViewer\uninstall.exe'
+
+IF (Test-Path $Path1)
+
+               {cmd /c "C:\Program Files\TeamViewer\uninstall.exe" /S}
+
+ELSE
+
+               {cmd /c "C:\Program Files (x86)\TeamViewer\uninstall.exe" /S}
